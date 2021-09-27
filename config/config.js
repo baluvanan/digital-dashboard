@@ -109,7 +109,8 @@ let config = {
 			position: 'position',
 			config: {
 				// If desired
-				lastSevenDays :true
+				lastSevenDays :true,
+				chartWidth : 1000
 			}
 		},
 		{
@@ -117,6 +118,10 @@ let config = {
             position: "top_right", // All available positions
             config: {
                 // See below for configurable options, this is optional
+				animationSpeed : 1,
+				updateInterval : 600,
+				maxWidth : 	'1000px',
+				textSize : 'xlarge'
             }
         },
 		
