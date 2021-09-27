@@ -114,11 +114,11 @@ let config = {
 		},
 		{
 			module: 'MMM-GoogleFit',
-			position: 'position',
+			position: 'upper_third',
 			config: {
 				// If desired
 				lastSevenDays :true,
-				chartWidth : 1000
+				chartWidth : 300
 			}
 		},
 		{
@@ -128,8 +128,8 @@ let config = {
                 // See below for configurable options, this is optional
 				animationSpeed : 1,
 				updateInterval : 600,
-				maxWidth : 	'1000px',
-				textSize : 'xlarge'
+				maxWidth : 	'300px',
+				textSize : 'large'
             }
         },
 		
