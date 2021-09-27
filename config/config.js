@@ -96,6 +96,14 @@ let config = {
 					{
 						title: "New York Times",
 						url: "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml"
+					},
+					{
+						title :"ABC News",
+						url:"https://www.abc.net.au/news/rural/rss/2011-04-26/rss-feeds/4808396?utm_campaign=abc_news_web&utm_content=link&utm_medium=content_shared&utm_source=abc_news_web"
+					},
+					{
+						title :"Time now India",
+					    url : "https://timesofindia.indiatimes.com/rssfeedstopstories.cms"
 					}
 				],
 				showSourceTitle: true,
