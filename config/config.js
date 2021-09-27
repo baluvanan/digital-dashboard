@@ -72,8 +72,8 @@ let config = {
 				weatherProvider: "openweathermap",
 				type: "current",
 				location: "Melbourne",
-				locationID: "2158177", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
-				apiKey: "7bb790b52b8eecd174ae9bae543985a6"
+				locationID: "2158177", 
+				apiKey: ""
 			}
 		},
 		{
@@ -117,19 +117,18 @@ let config = {
 			position: 'upper_third',
 			config: {
 				// If desired
-				lastSevenDays :true,
 				chartWidth : 300
 			}
 		},
 		{
             module: 'MMM-OnThisDay',
-            position: "top_right", // All available positions
+            position: "top_left", // All available positions
             config: {
                 // See below for configurable options, this is optional
 				animationSpeed : 1,
 				updateInterval : 600,
-				maxWidth : 	'300px',
-				textSize : 'large'
+				maxWidth : 	'600px',
+				textSize : 'medium'
             }
         },
 		
